@@ -164,4 +164,11 @@ a {
   .about-me-container {
     flex-direction: column;
   }
+  nav {
+  display: flex;
+  align-items: center;
+  padding: var(--spacing-3) 0;
+  flex-direction: column;
+}
+
 }
