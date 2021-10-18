@@ -85,14 +85,6 @@ nav {
   display: inline;
 }
 
-details {
-  cursor: pointer;
-}
-
-summary {
-  list-style-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/right-arrow.svg);
-}
-
 footer {
   margin-top: auto;
   padding: var(--spacing-3) 0;
@@ -168,7 +160,7 @@ a {
   nav {
   display: flex;
   align-items: center;
-  padding: var(--spacing-3) 0;
+  padding: var(--spacing-1) 0;
   flex-direction: column;
   width: 100%;
 }
@@ -181,5 +173,9 @@ a {
   margin-left: auto;
   width: 100%;
   flex-wrap: wrap;
+<<<<<<< HEAD
+  justify-content: space-around;
+=======
+>>>>>>> 810e27c05b786ae823b20c3e7af3b6b67a9d3210
 }
 }
