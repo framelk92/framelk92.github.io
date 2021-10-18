@@ -74,6 +74,7 @@ nav {
 
 .about-me-text-container {
   margin-right: var(--spacing-3);
+    text-align: justify;
 }
 
 .project-image {
@@ -169,6 +170,16 @@ a {
   align-items: center;
   padding: var(--spacing-3) 0;
   flex-direction: column;
+  width: 100%;
 }
-
+.navigation-items {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  align-items: center;
+  margin: 0;
+  margin-left: auto;
+  width: 100%;
+  flex-wrap: wrap;
+}
 }
